@@ -1,63 +1,54 @@
 ---
 title: "About Me"
+author: "Thys Hansen"
+format: html
+theme: darkly
 ---
 
-::: {.hero-banner .text-center}
+# Thys Hansen
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+Hello! I'm Thys Hansen, a junior at Brigham Young University originally from Lindon, Utah. I'm currently pursuing a degree in Accounting and am passionate about the intersection of creative pursuits and analytical problem-solving.
 
-<h1>Your Name</h1>
+---
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-linkedin"></i> LinkedIn
-</a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-github"></i> GitHub
-</a>
+## Education
 
-:::
+* **Brigham Young University**
+    * Major: Accounting
+    * Status: Junior
 
-## Background
+* **Timpanogos High School**
+    * Graduated: 2021
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+---
 
-### Education
+## Professional Experience
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+* **Head Photographer & Videographer** | *Wheatley Institute*
+    * I currently lead the photo and video production efforts at BYU's Wheatley Institute, capturing events and creating compelling visual narratives.
 
-### Experience
+---
 
-#### Job/Internship Title - Company Name
-*Dates*
+## Interests & Passions
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+### Hobbies
 
-#### Another Position - Company Name
-*Dates*
+Outside of my studies and work, I dedicate my time to a few key hobbies that I love:
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+* 🎹 Piano
+* 🏐 Volleyball
+* 📸 Photography
+* 🎥 Videography
 
-### Skills & Interests
+### Why Product Management?
 
-**Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+I'm deeply interested in **product management** because it blends two things I enjoy most: creative **problem-solving** and **collaborating with people**. I love the challenge of understanding user needs and working with a team to build solutions that make a real impact.
 
-**Soft Skills**
-- Communication and presentation
-- Cross-functional collaboration
-- Strategic thinking and problem-solving
+---
 
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+## Connect With Me
 
-### What's Next
+Feel free to connect with me on social media!
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+* [**LinkedIn**](https://www.linkedin.com/in/thys-hansen-522a47346/)
+* [**Instagram**](https://www.instagram.com/th.y.s/)

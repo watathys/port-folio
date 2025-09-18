@@ -1,33 +1,35 @@
 ---
-title: "Name of the application I have published for Homework 1"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: "BlockFall: A Minimalist Tetris Clone"
+author: "Thys Hansen"
+date: "2025-09-18"
+categories: [HTML, CSS, JavaScript, Vercel, AI Development]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+This project is a minimalist twist on the classic Tetris game. I used an AI assistant (Claude) to generate the necessary code for a simple, browser-based game where every falling "piece" is a single block instead of the usual four-block tetromino.
 
-The primary purpose of this app is to:
+The primary purposes of this app are:
 
-- ....
-- ....
+-   To create a playable browser game using vanilla HTML, CSS, and JavaScript.
+-   To explore minimalist game design by simplifying the core mechanic of a well-known classic.
+-   To practice deploying a modern web application through Vercel.
+
+---
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
-  <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href= "https://tetris-one-block.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
     Open App in New Tab
   </a>
 
-  <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/watathys/tetris-one-block"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -35,20 +37,42 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
-        style="width:100%; height:900px; border:none;"
+<iframe src="https://tetris-one-block.vercel.app/"
+        style="width:100%; height:800px; border:1px solid #ccc;"
         allowfullscreen>
 </iframe>
 
+---
+
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Framework/Stack:** Vanilla HTML, CSS, and JavaScript.
 
-Deployment: GitHub Pages + Vercel
+**Deployment:** Vercel (from a GitHub repository).
 
-Tools Used:
--   Claude Code
+**Tools Used:**
+-   **Claude:** Used for AI-assisted code generation and debugging.
+-   **Visual Studio Code:** Primary code editor.
+-   **Git & GitHub:** For version control.
 
-## Product Requirements Document
+---
 
-Paste in the PRD that you submitted to Claude Code
+## Product Requirements Document (PRD)
+
+This is the PRD provided to the AI assistant to generate the game's code.
+
+### 1. Core Concept
+A game like Tetris, but simplified. Instead of complex, multi-part shapes (tetrominoes), every piece that falls from the top of the screen is a single square block.
+
+### 2. Gameplay Mechanics
+-   A single block appears at the top-center of the game board and falls downwards.
+-   The user can move the falling block left or right using the arrow keys.
+-   The user can press the down arrow key to make the block fall faster.
+-   When a block lands on the bottom of the board or on top of another block, it stops, and a new block begins to fall from the top.
+-   When a horizontal row is completely filled with blocks, that row is cleared, and all blocks above it move down one row.
+-   The game ends when the stack of blocks reaches the top of the board.
+
+### 3. User Interface
+-   The game will be played on a simple grid (e.g., 10 blocks wide by 20 blocks high).
+-   The user's score should be displayed on the screen. The score increases every time a line is cleared.
+-   A "Start Game" button is needed to begin play.
