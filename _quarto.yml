@@ -4,7 +4,7 @@ project:
 
 website:
   title: ""
-  favicon: images/prototyping-favicon.png
+  favicon: puffin.png
   navbar:
     background: primary
     left:
