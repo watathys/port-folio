@@ -3,6 +3,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* NEW: Smooth Scroll & Nav Offset */
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+    scroll-margin-top: 80px; /* Adjust this value based on your navbar's height */
+}
+
 h1, h2, h3, .navbar-brand, .btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -38,7 +46,6 @@ h1, h2, h3, .navbar-brand, .btn {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Creates a nice parallax effect */
-    margin-top: 70px; /* Offset for fixed navbar */
 }
 .hero-section .lead {
     max-width: 600px;
@@ -91,4 +98,9 @@ h1, h2, h3, .navbar-brand, .btn {
 .card-footer {
     font-weight: 600;
     color: #555;
+}
+
+/* NEW: Shop Section Styling */
+.shop-section {
+    background-color: var(--primary-blue);
 }
