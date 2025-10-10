@@ -1,0 +1,94 @@
+/* --- Google Font Imports --- */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand, .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* --- Color & Style Variables --- */
+:root {
+    --primary-blue: #2A64F6;
+    --light-gray: #F5F7FA;
+    --dark-text: #333;
+}
+
+/* --- Navbar Styling --- */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar-brand {
+    color: var(--primary-blue) !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-link {
+    font-weight: 600;
+}
+
+
+/* --- Hero Section Styling --- */
+.hero-section {
+    padding: 120px 0;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1627843563095-2df97826cf34?q=80&w=1632&auto=format&fit=crop'); /* Placeholder Image: Healthy, active person */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Creates a nice parallax effect */
+    margin-top: 70px; /* Offset for fixed navbar */
+}
+.hero-section .lead {
+    max-width: 600px;
+    margin: 1.5rem auto;
+}
+
+/* --- General Section Styling --- */
+.section-title {
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 1rem;
+}
+
+/* --- Feature Icon Styling --- */
+.icon-feature {
+    font-size: 3rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+}
+
+/* --- Button Styling --- */
+.btn-primary {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    padding: 12px 28px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #1a4ccc; /* Darker blue on hover */
+    border-color: #1a4ccc;
+}
+
+.btn-outline-light {
+    padding: 12px 28px;
+    font-size: 1rem;
+}
+
+/* --- Testimonial Card Styling --- */
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+.card-footer {
+    font-weight: 600;
+    color: #555;
+}
